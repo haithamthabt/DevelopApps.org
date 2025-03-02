@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Programming Fundamentals
-nav_exclude: true
+has_children: true
+nav_order: 1
 ---
 
 # Programming Fundamentals

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: HTML Tutorials
-nav_exclude: true
+has_children: true
+nav_order: 3
 ---
 
 # HTML Tutorial

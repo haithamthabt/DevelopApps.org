@@ -4,6 +4,7 @@ title: Control Structures
 nav_order: 3
 parent: Tutorials
 grand_parent: Programming Fundamentals
+nav_order: 3
 ---
 
 # Control Structures

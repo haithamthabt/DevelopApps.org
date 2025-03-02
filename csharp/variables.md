@@ -4,6 +4,7 @@ title: C# Variables and Types
 nav_order: 2
 parent: Tutorials
 grand_parent: C# Tutorials
+nav_order: 2
 ---
 
 # C# Variables and Types

@@ -4,6 +4,7 @@ title: HTML Forms
 nav_order: 2
 parent: Tutorials
 grand_parent: HTML Tutorials
+nav_order: 1
 ---
 
 # HTML Forms

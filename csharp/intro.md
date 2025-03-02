@@ -2,6 +2,7 @@
 layout: default
 title: Introduction to C#
 parent: C# Tutorials
+nav_order: 2
 ---
 
 # Introduction to C#

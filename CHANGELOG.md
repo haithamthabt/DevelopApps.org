@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.0] - 2025-03-02
+
+### Changed
+- Simplified URL structure (e.g., /html/intro/ instead of /tutorials/html/2025-03-02-html-basics)
+- Fixed navigation hierarchy to show proper section grouping
+- Restored top navigation with consistent section names
+- Fixed expandable sections in left sidebar
+- Ensured each section only shows its own tutorials
+
 ## [0.1.0] - 2025-03-02
 
 ### Added
