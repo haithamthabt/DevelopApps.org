@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2] - 2025-03-02 - Navigation Cleanup
+### Changed
+- Modified homepage navigation to only show top-level sections
+- Moved ASP.NET subsections (MVC, Razor Pages, Blazor, Web API) under ASP.NET section
+- Improved navigation hierarchy clarity and reduced homepage clutter
+
 ## [1.1.1] - 2025-03-02 - Navigation Update
 ### Changed
 - Standardized layouts: using 'section' for all content pages except homepage
