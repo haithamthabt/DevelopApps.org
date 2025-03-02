@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0] - 2025-03-02 - Working Version
+## [1.0.0] - 2025-03-02 - Working Version
 ### Added
 - Implemented clear two-level navigation structure
 - Homepage shows all sections in left navigation
