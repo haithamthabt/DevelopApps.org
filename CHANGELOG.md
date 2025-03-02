@@ -1,6 +1,11 @@
 # Changelog
 
-## [1.0.0] - 2025-03-02 - Working Version
+## [1.1.1] - 2025-03-02 - Navigation Update
+### Changed
+- Standardized layouts: using 'section' for all content pages except homepage
+- Ensured consistent navigation structure across all sections and tutorials
+
+## [1.1.0] - 2025-03-02 - Working Version
 ### Added
 - Implemented clear two-level navigation structure
 - Homepage shows all sections in left navigation
