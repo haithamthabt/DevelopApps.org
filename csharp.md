@@ -18,4 +18,4 @@ Welcome to C# Programming! Learn one of the most versatile programming languages
 - Database connectivity
 - Modern C# features
 
-Begin your C# journey with our [Introduction to C#](/tutorials/csharp/2025-03-02-csharp-introduction) tutorial!
+Begin your C# journey with our [Introduction to C#](/csharp/intro/) tutorial!

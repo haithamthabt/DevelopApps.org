@@ -57,11 +57,13 @@ nav_external_links_new_tab: true
 # Enable copy code button
 enable_copy_code_button: true
 
-# Collections
+# Collections and Permalinks
+permalink: /:path/
+collections_dir: .
 collections:
-  docs:
-    permalink: "/:collection/:path/"
+  pages:
     output: true
+    permalink: /:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

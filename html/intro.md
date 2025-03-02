@@ -1,9 +1,8 @@
 ---
 layout: default
 title: HTML Basics
-nav_order: 1
-parent: Tutorials
-grand_parent: HTML Tutorials
+parent: HTML Tutorials
+permalink: /html/intro/
 ---
 
 # HTML Basics
