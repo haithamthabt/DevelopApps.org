@@ -2,7 +2,8 @@
 layout: default
 title: Variables and Data Types
 nav_order: 2
-parent: Programming Fundamentals
+parent: Tutorials
+grand_parent: Programming Fundamentals
 ---
 
 # Variables and Data Types

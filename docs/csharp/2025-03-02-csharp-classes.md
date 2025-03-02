@@ -2,7 +2,8 @@
 layout: default
 title: C# Classes and Objects
 nav_order: 3
-parent: C# Tutorials
+parent: Tutorials
+grand_parent: C# Tutorials
 ---
 
 # C# Classes and Objects

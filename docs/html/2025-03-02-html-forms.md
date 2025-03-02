@@ -2,7 +2,8 @@
 layout: default
 title: HTML Forms
 nav_order: 2
-parent: HTML Tutorials
+parent: Tutorials
+grand_parent: HTML Tutorials
 ---
 
 # HTML Forms

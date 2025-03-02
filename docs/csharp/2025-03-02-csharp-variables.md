@@ -2,7 +2,8 @@
 layout: default
 title: C# Variables and Types
 nav_order: 2
-parent: C# Tutorials
+parent: Tutorials
+grand_parent: C# Tutorials
 ---
 
 # C# Variables and Types

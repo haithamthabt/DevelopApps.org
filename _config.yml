@@ -32,21 +32,36 @@ plugins:
   - jekyll-feed
 
 # Theme settings
+theme: just-the-docs
 color_scheme: light
 search_enabled: true
 heading_anchors: true
 
-# Navigation Structure
-nav_external_links:
-  - title: W3Schools
-    url: https://www.w3schools.com
-    hide_icon: false
+# Navigation
+url: https://developapps.org
 
-# Organize navigation
-nav_order:
-  - programming-fundamentals
-  - csharp
-  - html
+# Top navigation
+aux_links:
+  "Programming Fundamentals":
+    - "/programming-fundamentals"
+  "C# Tutorials":
+    - "/csharp"
+  "HTML Tutorials":
+    - "/html"
+  "W3Schools":
+    - "https://www.w3schools.com"
+
+# Navigation structure
+nav_external_links_new_tab: true
+
+# Enable copy code button
+enable_copy_code_button: true
+
+# Collections
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

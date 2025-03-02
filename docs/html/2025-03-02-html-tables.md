@@ -2,7 +2,8 @@
 layout: default
 title: HTML Tables
 nav_order: 3
-parent: HTML Tutorials
+parent: Tutorials
+grand_parent: HTML Tutorials
 ---
 
 # HTML Tables

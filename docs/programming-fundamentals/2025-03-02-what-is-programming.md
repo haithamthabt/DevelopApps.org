@@ -1,8 +1,8 @@
 ---
 layout: default
 title: What is Programming?
-nav_order: 1
 parent: Programming Fundamentals
+nav_order: 1
 ---
 
 # What is Programming?

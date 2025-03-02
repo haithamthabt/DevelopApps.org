@@ -2,7 +2,8 @@
 layout: default
 title: HTML Basics
 nav_order: 1
-parent: HTML Tutorials
+parent: Tutorials
+grand_parent: HTML Tutorials
 ---
 
 # HTML Basics

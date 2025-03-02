@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
 title: Programming Fundamentals
-nav_order: 1
-has_children: true
+nav_exclude: true
 ---
 
 # Programming Fundamentals
@@ -17,4 +16,4 @@ Welcome to Programming Fundamentals! This section covers the basic concepts that
 - Control structures
 - Functions and modules
 
-Start with [What is Programming?]({% post_url programming-fundamentals/2025-03-02-what-is-programming %}) to begin your journey!
+Start with [What is Programming?](/tutorials/programming-fundamentals/2025-03-02-what-is-programming) to begin your journey!

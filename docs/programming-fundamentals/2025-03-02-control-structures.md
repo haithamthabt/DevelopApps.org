@@ -2,7 +2,8 @@
 layout: default
 title: Control Structures
 nav_order: 3
-parent: Programming Fundamentals
+parent: Tutorials
+grand_parent: Programming Fundamentals
 ---
 
 # Control Structures
