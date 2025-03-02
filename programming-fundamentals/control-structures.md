@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: section
 title: Control Structures
 nav_order: 3
-parent: Tutorials
+parent: Programming Fundamentals
 grand_parent: Programming Fundamentals
 nav_order: 3
 ---

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: section
 title: C# Classes and Objects
 nav_order: 3
-parent: Tutorials
+parent: C# Tutorials
 grand_parent: C# Tutorials
 nav_order: 2
 ---

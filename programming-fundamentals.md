@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: section
 title: Programming Fundamentals
 has_children: true
 nav_order: 1

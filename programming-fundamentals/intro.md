@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: section
 title: What is Programming?
 parent: Programming Fundamentals
 nav_order: 3

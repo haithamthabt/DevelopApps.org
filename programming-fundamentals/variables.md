@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: section
 title: Variables and Data Types
 nav_order: 2
-parent: Tutorials
+parent: Programming Fundamentals
 grand_parent: Programming Fundamentals
 nav_order: 3
 ---

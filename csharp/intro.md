@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: section
 title: Introduction to C#
 parent: C# Tutorials
 nav_order: 2

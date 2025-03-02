@@ -1,0 +1,27 @@
+{% assign pages_list = site.html_pages | sort:"nav_order" %}
+
+{% if page.has_children %}
+  {% assign current_section = page.title %}
+{% else %}
+  {% assign current_section = page.parent %}
+{% endif %}
+
+<ul class="nav-list">
+{% for node in pages_list %}
+  {% if node.has_children == true and node.title == current_section %}
+    <li class="nav-list-item">
+      <a href="{{ node.url | relative_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
+      {% if node.has_children %}
+        {% assign children_list = site.html_pages | where: "parent", node.title | sort:"nav_order" %}
+        <ul class="nav-list">
+        {% for child in children_list %}
+          <li class="nav-list-item">
+            <a href="{{ child.url | relative_url }}" class="nav-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

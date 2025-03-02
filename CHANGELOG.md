@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.0] - 2025-03-02
+### Added
+- Implemented clear two-level navigation structure
+- Homepage shows all sections in left navigation
+- Section pages show their tutorials in left navigation
+- Tutorial pages show their parent section and sibling tutorials
+- Top navigation bar for quick section access
+- Search functionality across all content
+
+
 ## [0.2.0] - 2025-03-02
 
 ### Changed
