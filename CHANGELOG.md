@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3] - 2025-03-02 - Content Improvements
+### Added
+- Added comprehensive table of contents to DbContext tutorial
+- Added table of contents to Database Approaches tutorial
+- Created detailed tutorials for database approaches and DbContext in MVC section
+- Added extensive best practices section for DbContext management
+
 ## [1.1.2] - 2025-03-02 - Navigation Cleanup
 ### Changed
 - Modified homepage navigation to only show top-level sections
