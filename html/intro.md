@@ -3,7 +3,6 @@ layout: section
 title: HTML Basics
 parent: HTML Tutorials
 nav_order: 1
-permalink: /html/intro/
 ---
 
 # HTML Basics

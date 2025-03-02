@@ -3,8 +3,6 @@ layout: section
 title: C# Classes and Objects
 nav_order: 3
 parent: C# Tutorials
-grand_parent: C# Tutorials
-nav_order: 2
 ---
 
 # C# Classes and Objects

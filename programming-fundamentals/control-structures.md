@@ -3,8 +3,6 @@ layout: section
 title: Control Structures
 nav_order: 3
 parent: Programming Fundamentals
-grand_parent: Programming Fundamentals
-nav_order: 3
 ---
 
 # Control Structures

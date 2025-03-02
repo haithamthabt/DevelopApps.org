@@ -3,8 +3,6 @@ layout: section
 title: HTML Tables
 nav_order: 3
 parent: HTML Tutorials
-grand_parent: HTML Tutorials
-nav_order: 1
 ---
 
 # HTML Tables
