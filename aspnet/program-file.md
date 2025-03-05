@@ -52,7 +52,7 @@ Without Program.cs, you would face several issues:
    builder.Services.AddSingleton<ICacheService, CacheService>();
    // Services automatically available where needed
    ```
-   > New to services? Learn what they are and why we need them in our [Services guide](../aspnet/services).
+   > New to services? Learn what they are and why we need them in our [Services guide](services).
 
 3. **Security Vulnerabilities**
    ```csharp
