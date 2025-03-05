@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4] - 2025-03-05 - Entity Framework Content
+### Added
+- Created Entity Framework section under ASP.NET
+- Added comprehensive introduction to Entity Framework Core
+- Created detailed DbContext tutorial with examples and best practices
+
+
 ## [1.1.3] - 2025-03-02 - Content Improvements
 ### Added
 - Added comprehensive table of contents to DbContext tutorial

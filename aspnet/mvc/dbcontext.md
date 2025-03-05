@@ -1,11 +1,15 @@
 ---
 layout: section
-title: Understanding DbContext
+title: DbContext in MVC
 nav_order: 4
 parent: MVC
 ---
 
-# Understanding DbContext in ASP.NET MVC
+# Using DbContext in ASP.NET MVC
+
+> For a comprehensive overview of DbContext and its core features, please see our [Entity Framework DbContext documentation](../entity-framework/dbcontext.md).
+
+This guide focuses on DbContext patterns and best practices specific to ASP.NET MVC applications.
 
 ## Table of Contents
 1. [Introduction](#introduction)
