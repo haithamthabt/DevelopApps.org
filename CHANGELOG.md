@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.1.10] - 2025-03-05 - Program File Documentation
+### Added
+- Added guide explaining why we need the Program file
+- Detailed middleware configuration examples
+- Environment-specific configuration patterns
+- Best practices and common issues
+- Added cross-references from database approaches
+
+
+## [1.1.9] - 2025-03-05 - Entity Framework Configuration Guide
+### Added
+- Added comprehensive Configuration & DI guide for Entity Framework
+- Added detailed explanations of dependency injection patterns
+- Added environment-specific configuration examples
+- Added cross-references between related EF documentation
+
+
+## [1.1.8] - 2025-03-05 - Database Approaches Update
+### Added
+- Added Entity Framework setup steps to Code-First approach
+- Added package installation instructions
+- Added service configuration examples
+- Added connection string setup
+
+
 ## [1.1.7] - 2025-03-05 - Entity Framework Best Practices
 ### Added
 - Comprehensive Entity Framework best practices guide

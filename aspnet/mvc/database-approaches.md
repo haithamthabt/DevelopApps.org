@@ -78,7 +78,48 @@ In the Code-First approach, you start by creating your C# classes (models) and E
 - Agile development with frequent model changes
 
 ### Implementation Steps
-1. **Create Model Classes**
+1. **Install Required Packages**
+   ```bash
+   # Install Entity Framework Core packages
+   dotnet add package Microsoft.EntityFrameworkCore
+   dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   dotnet add package Microsoft.EntityFrameworkCore.Tools
+   ```
+
+   Or add to your `.csproj` file:
+   ```xml
+   <ItemGroup>
+     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+       <PrivateAssets>all</PrivateAssets>
+       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+     </PackageReference>
+   </ItemGroup>
+   ```
+
+2. **Configure Services in Program.cs**
+   ```csharp
+   var builder = WebApplication.CreateBuilder(args);
+
+   // Add DbContext to the services
+   builder.Services.AddDbContext<ShopContext>(options =>
+       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+   ```
+   > Wondering why we need a Program file? Learn its purpose and importance in our [Program File guide](../program-file.md).
+   >
+   > For details about Entity Framework configuration and dependency injection, see our [Configuration & DI guide](../entity-framework/configuration.md).
+
+3. **Add Connection String in appsettings.json**
+   ```json
+   {
+     "ConnectionStrings": {
+       "DefaultConnection": "Server=.;Database=ShopDB;Trusted_Connection=True;TrustServerCertificate=True;"
+     }
+   }
+   ```
+
+4. **Create Model Classes**
    ```csharp
    public class Product
    {
@@ -170,6 +211,7 @@ In the Code-First approach, you start by creating your C# classes (models) and E
    - Don't forget to backup before migrations
 
 ## Next Steps
-- Learn about Entity Framework Core
-- Explore advanced database operations
-- Study database optimization techniques
+- Learn more about [Entity Framework Core](../entity-framework/index.md)
+- Understand [Entity Framework configuration and dependency injection](../entity-framework/configuration.md)
+- Study [Entity Framework best practices](../entity-framework/best-practices.md)
+- Explore [DbContext in detail](../entity-framework/dbcontext.md)
