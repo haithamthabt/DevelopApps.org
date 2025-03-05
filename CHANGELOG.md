@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.5] - 2025-03-05 - GitHub Pages Setup
+### Added
+- Added GitHub Actions workflow for automated deployment
+- Configured Jekyll for GitHub Pages hosting
+
+### Changed
+- Updated site configuration for GitHub Pages compatibility
+- Modified base URL and site URL settings
+
+
 ## [1.1.4] - 2025-03-05 - Entity Framework Content
 ### Added
 - Created Entity Framework section under ASP.NET

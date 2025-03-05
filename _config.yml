@@ -23,8 +23,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Learn to code with our comprehensive tutorials. From programming fundamentals
   to advanced web development, we provide clear, practical examples and tutorials.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/DevelopApps.org" # the subpath of your site, e.g. /blog
+url: "https://haithamthabt.github.io" # the base hostname & protocol for your site
 
 # Build settings
 theme: just-the-docs
@@ -38,7 +38,7 @@ search_enabled: true
 heading_anchors: true
 
 # Navigation
-url: https://developapps.org
+url: https://haithamthabt.github.io/DevelopApps.org
 
 # Top navigation
 aux_links:
