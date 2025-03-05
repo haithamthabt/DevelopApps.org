@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.7] - 2025-03-05 - Entity Framework Best Practices
+### Added
+- Comprehensive Entity Framework best practices guide
+- Code examples for common patterns and practices
+- Performance optimization guidelines
+- Security and testing recommendations
+
+
 ## [1.1.5] - 2025-03-05 - GitHub Pages Setup
 ### Added
 - Added GitHub Actions workflow for automated deployment
