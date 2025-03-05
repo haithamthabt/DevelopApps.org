@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.11] - 2025-03-05 - Services Documentation
+### Added
+- Added guide explaining what services are and why we need them
+- Included real-world analogies and examples
+- Added best practices for service creation and usage
+- Added cross-references from Program file documentation
+
+
 ## [1.1.10] - 2025-03-05 - Program File Documentation
 ### Added
 - Added guide explaining why we need the Program file
