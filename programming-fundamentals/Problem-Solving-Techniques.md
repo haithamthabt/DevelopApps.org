@@ -1,3 +1,10 @@
+---
+layout: section
+title: Problem-Solving Techniques
+nav_order: 3
+parent: Programming Fundamentals
+---
+
 # Problem-Solving Techniques in Programming!
 
 Programming is about more than writing code. it’s about solving problems logically and step by step. Whether you’re just starting out or working on real-world projects, the way you approach a challenge can make all the difference. Here are some proven techniques to help you think like a problem-solver:
