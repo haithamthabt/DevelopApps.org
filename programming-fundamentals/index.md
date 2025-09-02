@@ -9,8 +9,7 @@ nav_order: 1
 
 Welcome to Programming Fundamentals!
 
-This is where you’ll discover your new superpower: the ability to understand and talk to computers.
-Just like chatting with a friend, but here’s the catch: computers don’t understand English, Spanish, or Arabic. They only understand their own special language made of 0s and 1s.
+This is where you’ll discover your new superpower: the ability to understand and talk to computers, and to give them orders to do whatever you want. It’s just like communicating with a friend and asking them for a favor, like picking you up or giving you a ride. The catch is, computers don’t understand English, Spanish, or Arabic. They only understand their own special language made of 0s and 1s.
 
 In this series, you’ll learn the core skills and foundations that let you communicate with this language. Once you understand it and can give clear commands, you’ll officially be called a programmer (or coder).
 
